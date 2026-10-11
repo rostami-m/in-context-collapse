@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or retained evidence, cite the accompanying manuscript."
+title: "In-Context Collapse in Vision-Language Models and How to Mitigate It"
+abstract: >-
+  Controlled studies of in-context performance degradation and selective adapter
+  recovery in vision-language models. The revised evidence distinguishes source
+  classification recovery, limited target transfer, mechanism-consistent controls,
+  and negative rule-selection and image-disjoint VQA repair tests. Historical
+  breadth results retain their stated aggregate and heterogeneous-protocol limits.
+authors:
+  - family-names: Rostami
+    given-names: Mohammad
+repository-code: "https://github.com/rostami-m/incontext-collapse"
+license: MIT
+type: software
+keywords:
+  - vision-language models
+  - in-context learning
+  - reproducibility
+  - adapters

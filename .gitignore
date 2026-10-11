@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.venv*/
+.DS_Store
+
+# Local experiment inputs and outputs are intentionally outside this code release.
+data/
+figures/
+paper/
+reproducibility/
+derived/
+.smoke/
+.stage/
+
+# Model weights and local runner state.
+*.safetensors
+*.bin
+runner/logs/
+runner/hosts.txt

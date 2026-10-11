@@ -1,0 +1,13 @@
+# Maintained paper environment: Python3.12, tested on macOS arm64/MPS.
+# Install the complete exact dependency set from requirements.lock.
+# This file pins direct requirements; do not upgrade while reproducing the paper.
+# InternVL uses the separately recorded environment in reproducibility/environments/.
+numpy==2.5.3
+matplotlib==3.11.2
+torch==2.14.0
+transformers==4.49.0
+peft==0.21.0
+accelerate==1.15.0
+datasets==5.0.1
+Pillow==12.3.0
+PyMuPDF==1.28.2
